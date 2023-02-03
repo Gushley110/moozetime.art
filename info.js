@@ -1,6 +1,6 @@
 let info = {
-  name: "Hrishikesh Paul",
-  logo_name: "paul",
+  name: "Gustavo García",
+  logo_name: "GustavoGS",
   flat_picture: require("./src/assets/potrait.jpg"),
   config: {
     use_cookies: true,
@@ -9,97 +9,130 @@ let info = {
     }
   },
   description:
-    "A second year Computer Science graduate student at Indiana University Bloomington with an interest in Software Development, UX Design and Artificial Intelligence - and seeking exciting opportunities related to the same.<br><br>I am a detail oriented person and I keep my goals and tasks organized to maintain productivity. I would bring to table a wide range of software skills, ranging from design and development to writing scripts for intelligent agents. I believe that the skills that I have attained from the dynamic environment and competitive university life define me, and I am looking forward to implementing and polishing them in any opportunity that I receive. ",
+    "My name is Gustavo García Sánchez and I'm a Python Backend Developer with interest in Software Development, Data Analysis and Security - and looking for exciting job opportunities in these fields.<br><br> I have worked for companies in different areas, from Health, Marketing up to Banking, each which required a different skillset that i enjoyed to learn and eager to learn about many others.<br><br>I'm comfortable working with different stacks of technologies but my current stack is FastAPI, VueJS, Postgres, AWS.<br><br> Linux for Development, macOS for productivity, Windows for Gaming.",
   links: {
-    linkedin: "https://www.linkedin.com/in/hrishikeshpaul/",
-    github: "https://github.com/hrishikeshpaul",
-    angellist: "https://angel.co/u/hrishikesh-paul",
+    linkedin: "https://www.linkedin.com/in/ggs220996/",
+    github: "https://github.com/Gushley110",
     resume:
       "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
   },
   education: [
     {
-      name: "Indiana University Bloomington",
-      place: "USA",
-      date: "Aug, 2019 - May, 2021",
-      degree: "Masters in Computer Science",
-      gpa: "3.7/4.0",
-      description:
-        "Currently pursuing my Master's in Computer Science, while specializing in the field of Artificial Intelligence and Machine Learning.",
+      name: "IPN ESCOM",
+      school_location: "México",
+      date: "Aug, 2014 - Dec, 2019",
+      degree: "Bachelor in Computer Engineering",
       skills: [
-        "Artificial Intelligence",
         "Software Engineering",
         "Algorithms",
-        "Computer Vision",
-        "Music Data Mining",
-        ,
-        "OS"
+        "Image Analysis",
+        "Pattern Recognition",
+        "Cryptography"
       ]
     },
     {
-      name: "Manipal Institute of Technology",
-      place: "India",
-      date: "Aug, 2015 - July, 2019",
-      degree: "Bachelors in Computer and Communication",
-      gpa: "8.0/10.0",
-      description:
-        "Graduated from Manipal Institute of Technology, Manipal with a bachelors degree in Computer and Communications Engineering.",
+      name: "IPN CECyT 9 \"Juan de Dios Bátiz\"",
+      school_location: "México",
+      date: "Aug, 2011 - July, 2014",
+      degree: "Bachelor in Computer and Communication",
       skills: [
-        "AI",
-        "Neural Netwroks",
-        "Data Mining",
-        "Computer Vision",
-        "Pattern Recognition",
-        "HCI",
+        "Java",
+        "OOP",
+        "Data Structures",
+        "Mobile",
+        "TDD",
         "Software Engineering"
       ]
     }
   ],
   experience: [
     {
-      name: "Cyberinfrastructure for Network Science Center",
-      place: "Bloomington, Indiana",
-      date: "Jun, 2020 - Present",
-      position: "Research Assistant; Full Stack Developer",
-      description:
-        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
-      skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+      name: "Backend Developer",
+      company: "improvado.io",
+      place: "San Francisco, California (Remote)",
+      date: "Aug, 2022 - Present",
+      description: [
+          "Build no-code tools for marketing reporting and campaign monitoring.",
+          "Integrate 3rd party APIs to fetch data with different authentication mechanisms.",
+          "Process big quantities of data and store them into different databases.",
+          "Analyze and develop logic for new reports.",
+          "Maintain old logic of reports adding new metrics and fields.",
+          "Create unit tests to verify data integrity mocking 3rd party APIs as well as testing added features",
+      ],
+      skills: ["Python", "Django", "PostgreSQL", "Docker", "AWS", "Github Actions", "TDD" ]
     },
     {
-      name: "Skylark Drones",
-      place: "Bangalore, India",
-      date: "Jan, 2019 - Jun, 2021",
-      position: "Full Stack Web Developer",
-      description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
+      name: "Backend Developer",
+      company: "Flink",
+      place: "Mexico City, México (Remote)",
+      date: "Aug, 2021 - Aug, 2022",
+      description: [
+          "Develop new features in the existing DRF codebase.",
+          "Create and run unit tests for DRF legacy code with pytest.",
+          "Maintain code and fix incidents reported by the QA team.",
+          "Develop microservices with FastAPI that connect to existing codebase, consuming 3rd party APIs, and saving data to PostgreSQL databases.",
+          "Containerized microservices with Docker and Docker compose.",
+          "Created pipelines to deploy into EC2 and Lambda with Gitlab CI/CD.",
+      ],
+      skills: ["Python", "Django", "FastAPI", "AWS", "Gitlab CI/CD"]
     },
     {
-      name: "Hridayam Soft Solutions",
-      place: "Mumbai, India",
-      date: "May, 2018 - Jun, 2018",
-      position: "Computer Vision Engineer",
-      description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
+      name: "QA Lead for Data Analysis Dept",
+      company: "Tata Consultancy Services",
+      place: "Guadalajara, México (Remote)",
+      date: "Feb, 2021 - Jul, 2021",
+      description:[
+          "Create python scripts to read and validate data from Excel files.",
+          "Help on development of automated testing scripts for ETL jobs.",
+          "Execute complex SQL queries to extract records from different databases to CSV files for further analysis.",
+          "Worked primarily with banking data assets and followed successfully all security standards.",
+          "Followed quality standards and procedures to minimize errors and maximize customer satisfaction.",
+          "Rejected defective products and approved correct products.",
+          "Gave quality standard training for new and existing staff.",
+      ],
+      skills: ["Python", "Pytest", "Pandas", "qTest", "Raw SQL"]
     },
     {
-      name: "Elementail Labs",
-      place: "Mumbai, India",
-      date: "May, 2017 - July, 2017",
-      position: "Full Stack Web Developer",
-      description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
+      name: "Data Engineer Jr",
+      company: "Tata Consultancy Services",
+      place: "Guadalajara, México (Remote)",
+      date: "Aug, 2020 - Feb, 2021",
+      description:[
+          "Worked with AWS S3, and Glue to perform ETL jobs to Amazon Redshift as target.",
+          "Analyzed complex data and identified anomalies, trends and risks to provide useful insights to improve internal controls.",
+          "Developed, implemented, supported and maintained data analytics protocols, standards and documentation.",
+          "Collaborated with Development team on ETL tasks, maintaining data integrity and verifying pipeline stability.",
+      ],
+      skills: ["Python", "S3", "Glue", "Redshift", "Athena"]
     },
     {
-      name: "Viteos Capital Market Services s",
-      place: "Mumbai, India",
-      date: "May, 2016 - July, 2016",
-      position: "Software Developer",
-      description:
-        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
-      skills: ["C#", "C++", "Visual Studio"]
+      name: "IT Consultant",
+      company: "ABC Medical Center",
+      place: "Mexico City, México",
+      date: "Jan, 2019 - Sep, 2019",
+      description:[
+          "Verified implementation and compliance of ITIL practices.",
+          "ITIL admin in ServiceNow",
+          "Member of Change Advisory Board, helped reviewing and contributing ideas to business changes.",
+          "Monitor Incidents and Changes with ServiceNow.",
+          "Extract data from ServiceNow as excel files to perform analytics with python scripts.",
+          "Created JS scripts to plot graphs to visualize data and generate weekly reports on performance.",
+      ],
+      skills: ["Javascript", "ServiceNow", "Python", "Excel"]
+    },
+    {
+      name: "Web Developer",
+      company: "Punto Zip",
+      place: "Mexico City, México",
+      date: "Nov, 2014 - Jan, 2016",
+      description: [
+        "Created user interfaces converting mockups into web with HTML,JS and CSS for static and e-commerce pages.",
+        "Performed requirements analysis to match clients expectations, determining organizational, budget and design goals.",
+        "Built different page templates for Wordpress.",
+        "Queried data from MySQL with PHP to create CRUD operations for e-commerce inventory pages.",
+        "Developed login pages to authenticate user via OAuth",
+        "Conducted testing and review of website design for responsiveness, clarity and effectiveness.",
+      ]
     }
   ],
   skills: [
