@@ -34,7 +34,13 @@
                 </div>
                 <div class="px-2 date">{{ e.date }}</div>
                 <div class="px-2 pb-2 pt-2" style="text-align: justify;">
-                  {{ e.description }}
+                  <ul style="list-style: disc">
+                      <li v-for="task in e.description"
+                      :key="task"
+                      >
+                        {{ task }}
+                      </li>
+                  </ul>
                 </div>
                 <span
                   class="mx-2 badge p-2 mb-2"
