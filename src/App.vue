@@ -5,8 +5,8 @@
       <Home :nightMode="nightMode" />
       <About id="about" :nightMode="nightMode" />
       <Skills id="skills" :nightMode="nightMode" />
-      <Portfolio id="portfolio" :nightMode="nightMode" />
-      <Recommendation :nightMode="nightMode" />
+<!--      <Portfolio id="portfolio" :nightMode="nightMode" />-->
+<!--      <Recommendation :nightMode="nightMode" />-->
       <Contact id="contact" :nightMode="nightMode" />
       <Footer :nightMode="nightMode" />
     </div>
