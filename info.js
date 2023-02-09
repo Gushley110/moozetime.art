@@ -184,7 +184,7 @@ let info = {
     },
     {
       title: "design",
-      info: ["XD", "Figma", "Photoshop"],
+      info: ["Adobe XD", "Figma", "Photoshop"],
       icon: "fa fa-pencil-square-o"
     }
   ],
