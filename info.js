@@ -13,8 +13,7 @@ let info = {
   links: {
     linkedin: "https://www.linkedin.com/in/ggs220996/",
     github: "https://github.com/Gushley110",
-    resume:
-      "https://github.com/hrishikeshpaul/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+    resume: "https://ggs-public-files.s3.us-east-2.amazonaws.com/Gustavo_GarciaSanchez_Resume.pdf"
   },
   education: [
     {
@@ -142,58 +141,50 @@ let info = {
         "Python",
         "Javascript",
         "TypeScript",
-        "Java",
-        "C",
-        "C++",
+        "PHP",
         "SQL",
         "NoSQL",
-        "Ruby"
       ],
       icon: "fa fa-code"
     },
     {
       title: "data frameworks",
       info: [
-        "Keras",
         "Numpy",
         "Pandas",
         "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
+        "SciKit",
         "Pillow"
       ],
       icon: "fa fa-cubes"
     },
     {
       title: "web technologies",
-      info: ["Vue", "Angular", "React", "Node", "Flask", "HTML", "CSS"],
+      info: ["Django", "FastAPI", "Vue", "React", "Node", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
       title: "databases",
-      info: ["MongoDB", "MySQL", "OracleSQL", "Neo4j"],
+      info: ["PostgreSQL", "MySQL", "MongoDB"],
       icon: "fa fa-database"
     },
     {
       title: "operating systems & tools",
       info: [
         "MacOS",
-        "Ubuntu",
+        "Linux",
         "Windows",
-        "Android",
         "Agile",
         "Scrum",
         "JIRA",
-        "Heroku",
-        "Firebase",
-        "AWS S3"
+        "Git",
+        "AWS"
       ],
       icon: "fas fa-tools"
     },
     {
       title: "design",
-      info: ["Illustrator", "XD", "Photoshop", "Final Cut Pro"],
+      info: ["XD", "Figma", "Photoshop"],
       icon: "fa fa-pencil-square-o"
     }
   ],
