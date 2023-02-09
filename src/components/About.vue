@@ -26,10 +26,10 @@
       />
       <div class="row">
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
-          <Timeline :data="education" :nightMode="nightMode" />
+          <Timeline :data="experience" :nightMode="nightMode" />
         </div>
         <div class="col-xl-6 col-bg-6 col-md-6 col-sm-12">
-          <Timeline :data="experience" :nightMode="nightMode" />
+          <Timeline :data="education" :nightMode="nightMode" />
         </div>
       </div>
     </div>
