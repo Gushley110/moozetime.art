@@ -485,7 +485,11 @@ let info = {
       company: "Skylark Drones",
       location: "Bangalore"
     }
-  ]
+  ],
+  contact_info: {
+    email: "ggs220996@gmail.com",
+    phone: "+52 55 40 44 29 52"
+  }
 };
 
 export default info;
