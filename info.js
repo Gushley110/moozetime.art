@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "My name is Gustavo García Sánchez and I'm a Python Backend Developer with interest in Software Development, Data Analysis and Security - and looking for exciting job opportunities in these fields.<br><br> I have worked for companies in different areas, from Health, Marketing up to Banking, each which required a different skillset that i enjoyed to learn and eager to learn about many others.<br><br>I'm comfortable working with different stacks of technologies but my current stack is FastAPI, VueJS, Postgres, AWS.<br><br> Linux for Development, macOS for productivity, Windows for Gaming.",
+    "My name is Gustavo García Sánchez and I'm a <b>Python Backend Developer</b> with interest in <b>Software Development, Data Analysis and Security</b> - and looking for exciting job opportunities in these fields.<br><br> I have worked for companies in different areas, from <b>Health, Marketing up to Banking</b>, each which required a different skillset that i enjoyed to learn and eager to learn about many others.<br><br>I'm comfortable working with different stacks of technologies but my current stack is FastAPI, VueJS, Postgres, AWS.<br><br> Linux for Development, macOS for productivity, Windows for Gaming.",
   links: {
     linkedin: "https://www.linkedin.com/in/ggs220996/",
     github: "https://github.com/Gushley110",
