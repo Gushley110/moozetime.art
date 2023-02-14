@@ -1,7 +1,7 @@
 let info = {
   name: "Gustavo García",
   logo_name: "GustavoGS",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  flat_picture: require("./src/assets/profile_circle.png"),
   config: {
     use_cookies: true,
     navbar: {
