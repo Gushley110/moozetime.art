@@ -32,81 +32,12 @@
           data-aos-once="true"
           data-aos-duration="1000"
         >
-          <input
-            type="text"
-            name="user_name"
-            v-model="name"
-            placeholder="name"
-            class="pinput"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.2s"
-          />
+          <div>
+            <i class="fa fa-envelope"></i> - {{ email }} <br>
+            <i class="fa fa-mobile"></i> - {{ phone_number }} <br>
+          </div>
         </div>
-
-        <div
-          class="my-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <input
-            type="email"
-            name="user_email"
-            v-model="email"
-            placeholder="email"
-            class="pinput"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.4s"
-          />
-        </div>
-
-        <div
-          class="my-3"
-          data-aos="fade-up"
-          data-aos-once="true"
-          data-aos-duration="1000"
-        >
-          <textarea
-            name="message"
-            v-model="text"
-            placeholder="message"
-            class="pinput"
-            rows="4"
-            :class="{
-              pgray: !nightMode,
-              'pgray-dark': nightMode,
-              'text-light': nightMode,
-            }"
-            style="transition-delay: 0.6s"
-          ></textarea>
-        </div>
-
-        <button
-          @click.prevent="sendEmail"
-          class="mt-1 btn mb-3"
-          data-aos="fade"
-          data-aos-once="true"
-          data-aos-duration="1000"
-          data-aos-offset="50"
-        >
-          Send
-        </button>
       </div>
-
-      <Snackbar
-        :showSnackbar="showSnackbar"
-        @close="closeSnackbar"
-        :snackbarMessage="snackbarMessage"
-        :snackbarColor="snackbarColor"
-      />
     </div>
   </div>
 </template>
@@ -116,6 +47,7 @@ import config from "../../config";
 import emailjs from "emailjs-com";
 
 import Snackbar from "./helpers/Snackbar";
+import info from "../../info";
 
 export default {
   name: "Contact",
@@ -129,12 +61,13 @@ export default {
   },
   data() {
     return {
-      email: "",
+      email: info.contact_info.email,
       name: "",
       text: "",
       showSnackbar: false,
       snackbarMessage: "",
       snackbarColor: "",
+      phone_number: info.contact_info.phone
     };
   },
   methods: {
